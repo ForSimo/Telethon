@@ -19,18 +19,4 @@ Best User Bot To Manage Your Telegram Account
 
  
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/klanrali/TeleThon-IRAQ )
-
-Termix codes for installation through Termex in Google Play for installing Source telethon IRAQ :
-
-`sh
-
-git clone https://github.com/klanrali/TeleThon-IRAQ
-
-cd iraqthon
-
-virtualenv -p /usr/bin/python3 venv
-
-. ./venv/bin/activate
-
-pip install -r requirements.txt
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ForSimo/Telethon )
