@@ -149,7 +149,7 @@ async def endmute(event):
         except Exception as e:
             await event.edit("- Error occured!\nError is " + str(e))
         else:
-            await event.edit("- Successfully unmuted that person")
+            await event.edit("- Successfully unmuted that person.")
 
 @command(incoming=True)
 async def watcher(event):
