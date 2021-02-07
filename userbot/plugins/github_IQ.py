@@ -27,7 +27,7 @@ async def _(event):
         await borg.send_file(
             event.chat_id,
             caption="""Name: [{}]({})
-CH : @IQTHON
+CH : @nilnix
 Type: {}
 Company: {}
 Blog: {}

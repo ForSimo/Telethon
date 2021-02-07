@@ -85,10 +85,10 @@ async def _(event):
     animation_ttl = range(0, 20)
     animation_chars = [
             "🖤",
-            "❤️",
+            "♥️",
             "🖤",
-            "❤️",
-            "‎"
+            "🤍",
+            "‎♥️"
         ]
     for i in animation_ttl:
             await asyncio.sleep(animation_interval)
@@ -105,13 +105,13 @@ async def _(event):
             "😧",
             "😡",
             "😢",
-            "‎**Repo of catuserbot**",
+            "‎🥺",
             "😁",
             "😧",
             "😡",
             "😢",
-            "[‎](github.com/sandy1709/catuserbot)",
-            "__**Good to See you guys....**__"
+            "🥱",
+            "🌚"
         ]
     for i in animation_ttl:
             await asyncio.sleep(animation_interval)
@@ -129,7 +129,7 @@ async def _(event):
             "😁🏽",
             "😁🏼",
             "‎😁",
-            "**Good to See you friend....**"
+            "😄"
         ]
     for i in animation_ttl:
             await asyncio.sleep(animation_interval)
@@ -146,8 +146,8 @@ async def _(event):
             "🙉",
             "🙈",
             "🙊",
-            "🖕‎🐵🖕",
-            "**Good to See you friend....**"
+            "🐵",
+            "🐒"
         ]
     for i in animation_ttl:
             await asyncio.sleep(animation_interval)

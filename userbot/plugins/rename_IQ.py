@@ -27,7 +27,7 @@ async def _(event):
     thumb = None
     if os.path.exists(thumb_image_path):
         thumb = thumb_image_path
-    await event.edit("⚡️`Rename and upload in progress, please wait!`⚡️")
+    await event.edit("`Rename and upload in progress, please wait!`")
     input_str = event.pattern_match.group(1)
     if not os.path.isdir(Config.TMP_DOWNLOAD_DIRECTORY):
         os.makedirs(Config.TMP_DOWNLOAD_DIRECTORY)
@@ -62,4 +62,3 @@ async def _(event):
             await event.edit("File Not Found {}".format(input_str))
     else:
         await event.edit("Syntax // .rnupload file.name as reply to a Telegram media")
-
